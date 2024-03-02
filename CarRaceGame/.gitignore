@@ -69,6 +69,7 @@ ExportedObj/
 *.png
 *.jpg
 *.mp3
+*.asset
 # 필요에 따라 다른 확장자 추가
 
 # Unity3D generated meta files
