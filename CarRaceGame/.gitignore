@@ -72,6 +72,13 @@ ExportedObj/
 *.asset
 # 필요에 따라 다른 확장자 추가
 
+# Ignore .mat, .fbx, .prefab, .bmp, .exr files
+*.mat
+*.fbx
+*.prefab
+*.bmp
+*.exr
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
