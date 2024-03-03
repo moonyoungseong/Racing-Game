@@ -78,6 +78,7 @@ ExportedObj/
 *.prefab
 *.bmp
 *.exr
+*.tga
 
 # Unity3D generated meta files
 *.pidb.meta
