@@ -19,6 +19,16 @@ public class OpenScene : MonoBehaviour
     // 예시: 다른 씬을 로드하는 버튼 클릭 이벤트 처리 메서드
     public void OnTutorialButtonClick()
     {
-        StartCoroutine(LoadSceneAsync("Tutorial_scene"));
+        StartCoroutine(LoadSceneAsync("Tutorial_Scene"));
+    }
+
+    public void OnSingleButtonClick()
+    {
+        StartCoroutine(LoadSceneAsync("Single_Scene"));
+    }
+
+    public void OnMultipleButtonClick()
+    {
+        StartCoroutine(LoadSceneAsync("Multiple_Scene"));
     }
 }
